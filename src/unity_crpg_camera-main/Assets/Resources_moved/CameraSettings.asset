@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3d7ad70dc74d944af55f22cfa7b2a1, type: 3}
   m_Name: CameraSettings
   m_EditorClassIdentifier: 
-  _movementSpeed: 800
+  _movementSpeed: 600
   _zoomSpeed: 500
-  _minHeightAboveGround: 3
-  _heightOffset: 2
+  _minHeightAboveGround: 5
+  _heightOffset: 1
   _heightCheckRadius: 5
-  _minDistanceFromPlayer: 2
-  _maxDistanceFromPlayer: 20
+  _minDistanceFromPlayer: 3
+  _maxDistanceFromPlayer: 15
   _enableDistanceConstraint: 1
   _minZoomDistanceFromPlayer: 1
   _maxZoomDistanceFromPlayer: 20
