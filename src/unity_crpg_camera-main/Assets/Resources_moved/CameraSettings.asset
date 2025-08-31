@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3d7ad70dc74d944af55f22cfa7b2a1, type: 3}
+  m_Name: CameraSettings
+  m_EditorClassIdentifier: 
+  _movementSpeed: 800
+  _zoomSpeed: 500
+  _minHeightAboveGround: 3
+  _heightOffset: 2
+  _heightCheckRadius: 5
+  _minDistanceFromPlayer: 2
+  _maxDistanceFromPlayer: 20
+  _enableDistanceConstraint: 1
+  _minZoomDistanceFromPlayer: 1
+  _maxZoomDistanceFromPlayer: 20
+  _movementSmoothness: 0.1
+  _heightSmoothness: 0.2
